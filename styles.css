@@ -80,7 +80,7 @@ nav ul li{
 }
 
 section{
-    height: 40vh;
+    height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.479)),url(images/pexels-w-w-889839.jpg);
     background-size: cover;
     background-position: center;
@@ -90,4 +90,39 @@ section{
     padding-top: 1rem;
     line-height: 1.5rem;
     text-align: center;
+}
+
+.about-skills{
+    
+    display: flex;
+    width: 50%;
+    color: white;
+    flex-direction: row;
+    margin: auto;
+    padding: .5%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .about-skills h3{
+    padding right: 5%;
+
+} */
+
+.about-skills__h3--1{
+    
+    width: 5%;
+    margin-right: 50px;
+}
+
+.about-skills__h3--2{
+    
+    /* width: 5%; */
+    margin-right: 50px;
+}
+
+.about-skills__h3--3{
+    
+    /* width: 5%; */
+    margin-right: 50px;
 }
