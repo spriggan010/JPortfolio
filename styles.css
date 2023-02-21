@@ -8,6 +8,10 @@ body{
     font-family: ;
 }
 
+/* html{
+    font-size: 62.5%;
+} */
+
 .header{
     height: 100vh;
     background-image: linear-gradient(rgba(59, 59, 59, 0.397), rgba(0, 0, 0, 0.479)),url(images/pexels-josh-sorenson-1714202.jpg);
@@ -36,6 +40,7 @@ nav{
 nav ul li{
     display: inline-block;
     margin: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li{
@@ -52,6 +57,7 @@ nav ul li{
     transform: translate(-50%, -50%); */
     color: white;
     padding: 10% 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-text h1{
@@ -60,14 +66,28 @@ nav ul li{
 
 
 .about{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.404);
     height: 80vh;
 }
 
 .about-text{
     color: white;
     text-align: center;
+    font-size: x-large;
     width: 50%;
     margin: auto;
+    padding: 5%;
 }
 
+section{
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.479)),url(images/pexels-w-w-889839.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text p{
+    padding-top: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
