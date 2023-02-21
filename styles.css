@@ -33,12 +33,12 @@ nav{
     padding: 3% 7%;
 }
 
-nav ul li a{
+nav ul li{
     display: inline-block;
     margin: 10px 20px;
 }
 
-nav ul li a{
+nav ul li{
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -58,4 +58,16 @@ nav ul li a{
     font-size: 60px;
 }
 
+
+.about{
+    background-color: black;
+    height: 80vh;
+}
+
+.about-text{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
 
