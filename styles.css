@@ -180,7 +180,7 @@ nav ul li{
 /**************************************** CONTACT SECTION *************************************/
 
 .contact {
-    background-color: #000000cc;
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.479)),url(images/pexels-julien-bachelet-923306.jpg);
     background-size: cover;
     background-position: center;
@@ -234,7 +234,7 @@ nav ul li{
 .contact__btn {
     display: block;
     margin: 50px auto;
-    border: 1px solid #2ecc71;
+    border: 1px solid #006880;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
